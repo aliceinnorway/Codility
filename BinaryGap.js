@@ -1,6 +1,12 @@
-// Step One: Testing that I can actually find the binary number of an integer.
+/*
+Question: Binary Gap
+Link to question: https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
 
-const num = 647;
+Step One: Testing that I can actually find the binary number of an integer.
+
+*/
+
+function solution(num) {
 const binaryNum = num.toString(2);
 
 console.log("Step One, the binary number of " + num + " should be: " + binaryNum);
@@ -31,3 +37,7 @@ console.log("Step Four: " + newArray);
 const answer = Math.max(...newArray);
 
 console.log("Step Five says the answer is: " + answer);
+
+};
+
+solution(647);
